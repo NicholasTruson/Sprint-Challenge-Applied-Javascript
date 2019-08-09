@@ -26,7 +26,7 @@ createTab(response.data.topics);
 console.log(error);
 })
 
-// *** Function *** //
+// *** Function/create/itterate/content/append *** //
 
 function createTab(topicsArray){
 

@@ -17,3 +17,53 @@
 // </div>
 //
 // Create a card for each of the articles and add the card to the DOM.
+
+// *** Axios Get *** //
+
+
+
+// *** Bootstrap *** //
+
+
+
+// *** Javascript *** //
+
+
+
+// *** Jquery *** //
+
+
+
+// *** Node *** //
+
+
+
+// *** Tech *** //
+
+
+
+// *** Neg *** //
+
+
+
+// *** Card Creator Function *** //
+
+
+
+// *** Const's *** //
+
+
+
+// *** Class *** //
+
+
+
+// *** Text *** //
+
+
+
+// *** Append *** //
+
+
+
+// *** Return *** //

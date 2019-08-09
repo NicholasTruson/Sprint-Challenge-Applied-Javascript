@@ -27,4 +27,20 @@ function createHeader() {
     const h1 = document.createElement('h1');
     const temp = document.createElement('span');
 
+    // *** Classlist *** //
+
+    header.classList.add('header');
+    date.classList.add('date');
+    temp.classList.add('temp');
+
+    // *** Text Content *** //
+
+
+
+    // *** Appends *** //
+
+
+
+    // *** DOM *** //
+
 }

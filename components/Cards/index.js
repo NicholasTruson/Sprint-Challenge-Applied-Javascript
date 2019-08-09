@@ -20,7 +20,13 @@
 
 // *** Axios Get *** //
 
+axios.get('https://lambda-times-backend.herokuapp.com/articles')
+.then( data => {
+console.log('Working', data);
 
+const articles = data.data.articles;
+const Cards = document.querySelector('.cards-container');
+console.log(articles);
 
 // *** Bootstrap *** //
 

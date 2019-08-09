@@ -30,23 +30,34 @@ console.log(articles);
 
 // *** Bootstrap *** //
 
-
+articles.bootstrap.forEach(card => {
+    Cards.appendChild(createCard(card.headline, card.authorPhoto, card.authorName));
+    })
 
 // *** Javascript *** //
 
-
+articles.javascript.forEach(card => {
+    Cards.appendChild(createCard(card.headline, card.authorPhoto, card.authorName));
+    })
 
 // *** Jquery *** //
 
-
+articles.jquery.forEach(card => {
+    Cards.appendChild(createCard(card.headline, card.authorPhoto, card.authorName));
+    })
 
 // *** Node *** //
 
-
+articles.node.forEach(card => {
+    Cards.appendChild(createCard(card.headline, card.authorPhoto, card.authorName));
+    })
 
 // *** Tech *** //
 
-
+articles.technology.forEach(card => {
+    Cards.appendChild(createCard(card.headline, card.authorPhoto, card.authorName));
+    })
+    })
 
 // *** Neg *** //
 

@@ -35,7 +35,9 @@ function createHeader() {
 
     // *** Text Content *** //
 
-
+    date.textContent = ('SMARCH 28, 2019');
+    h1.textContent = ('Lambda Times');
+    temp.textContent = ('98 Degrees');
 
     // *** Appends *** //
 

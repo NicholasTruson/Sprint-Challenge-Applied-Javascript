@@ -28,5 +28,18 @@ console.log(error);
 
 // *** Function *** //
 
+function createTab(topicsArray){
 
+    const topics = document.querySelector('.topics')
+
+    topicsArray.forEach((topic) => {
+    const tab = document.createElement('div');
+
+    tab.classList.add('tab');
+    tab.textContent = topic;
+    
+    topics.appendChild(tab);
+    
+    });
+    }
 

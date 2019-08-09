@@ -35,14 +35,19 @@ function createHeader() {
 
     // *** Text Content *** //
 
-    date.textContent = ('SMARCH 28, 2019');
+    date.textContent = ('MARCH 28, 2019');
     h1.textContent = ('Lambda Times');
     temp.textContent = ('98 Degrees');
 
     // *** Appends *** //
 
+    newHeader.appendChild(header);
+    header.appendChild(date);
+    header.appendChild(h1);
+    header.appendChild(temp);
 
+    // *** Return *** //
 
-    // *** DOM *** //
+    return createHeader;
 
 }
